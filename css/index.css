@@ -186,16 +186,6 @@ p {
   color: #454A59;
   text-decoration: none;
 }
-footer {
-  color: #22283B;
-  background: #f4f4f4;
-  padding: 20px 0;
-  border: 1px double #e0e0e0;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .home .intro h2 {
   padding: 15px;
 }
@@ -329,4 +319,65 @@ input[type=submit]:hover {
   background-color: #22283A;
   padding: 20px;
   margin-bottom: 50px;
+}
+footer {
+  color: #22283B;
+  background: #f4f4f4;
+  padding: 20px 0;
+  border: 1px double #e0e0e0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.team-section {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+.team-top h2 {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+.team-top h3 {
+  font-size: 2.3rem;
+}
+.team-members {
+  display: flex;
+  justify-content: center;
+  padding: 3% 4% 2%;
+}
+@media (max-width: 500px) {
+  .team-members {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.team-members .team-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 1.5rem;
+  width: 30%;
+}
+@media (max-width: 500px) {
+  .team-members .team-grid {
+    flex-direction: column;
+    text-align: center;
+    width: 95%;
+  }
+}
+.team-members img {
+  width: 200px;
+  height: 200px;
+  padding-top: 20px;
+  border-radius: 50%;
+}
+.team-members h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+footer {
+  margin-top: 250px;
 }
