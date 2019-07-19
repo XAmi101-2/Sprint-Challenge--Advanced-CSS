@@ -34,13 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Responsive websites are more fluid in their changes regardless of the screen size of the viewing device, while adaptive websites are modified at certain universal screen sizes and adapt to the width of the browser at those specific points, but between those specific points the layout is a mess.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first means first coding the css for the mobile website and then expanding using media queries for the the desktop website design.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+This means that 62.5% of default font size of the browser which is 16px is 10px, this functionality is better when using rem because it is  easier for scaling.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing makes css easier to use. It  allows you to write CSS with more features in addition to providing increased organization.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept of preprocessing is the streamline ability of it, where you have separate less files and that are then imported together into one main less file. The issuesI still run into are remembering to pay attention that my less is still watching for he changes I am making. 
+
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -56,13 +68,13 @@ Follow these steps to set up your project:
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
- 
+
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
- 
+
 
 ### Preprocessor Set up
 
