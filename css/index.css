@@ -346,6 +346,7 @@ footer {
   display: flex;
   justify-content: center;
   padding: 3% 4% 2%;
+  margin-bottom: 200px;
 }
 @media (max-width: 500px) {
   .team-members {
@@ -377,7 +378,4 @@ footer {
 .team-members h3 {
   font-size: 2rem;
   font-weight: 600;
-}
-footer {
-  margin-top: 250px;
 }
